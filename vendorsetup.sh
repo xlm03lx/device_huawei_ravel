@@ -1,1 +1,1 @@
-add_lunch_combo aosp_ravel-userdebug
+add_lunch_combo bootleg_ravel-userdebug

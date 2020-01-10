@@ -20,11 +20,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
+$(call inherit-product, vendor/bootleggers/config/common.mk)
 
 TARGET_AOSP_BASED := true
 
-PRODUCT_NAME := aosp_ravel
+PRODUCT_NAME := bootleg_ravel
 PRODUCT_DEVICE := ravel
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := Huawei Note 10

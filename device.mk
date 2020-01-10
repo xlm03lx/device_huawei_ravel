@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/huawei/kirin970-common//kirin970-common-vendor.mk)
+$(call inherit-product, vendor/huawei/kirin970-common/kirin970-common-vendor.mk)
 
 # Android Open Source Project Common Stuff
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
@@ -45,7 +45,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libion
 
-TARGET_SCREEN_HEIGHT := 1920
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
 # GPS

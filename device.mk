@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/huawei/kirin970-common/kirin970-common-vendor.mk)
+$(call inherit-product, vendor/huawei/kirin970/kirin970-vendor.mk)
 
 # Android Open Source Project Common Stuff
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)

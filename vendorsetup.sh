@@ -1,1 +1,1 @@
-add_lunch_combo bootleg_ravel-userdebug
+add_lunch_combo havoc_ravel-userdebug

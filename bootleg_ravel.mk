@@ -32,3 +32,7 @@ PRODUCT_MODEL := Huawei Note 10
 PRODUCT_PACKAGES += \
     Launcher3QuickStep \
     messaging
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="FanthaghiroFoe | xlm0l3x"
+

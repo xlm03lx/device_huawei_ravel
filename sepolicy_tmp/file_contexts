@@ -1,0 +1,6 @@
+/cust(/.*)?        u:object_r:cust_file:s0
+/hw_odm(/.*)?        u:object_r:hw_odm_file:s0
+/modem_log(/.*)?        u:object_r:modem_log_file:s0
+/sec_storage(/.*)?        u:object_r:sec_storage_file:s0
+/splash2(/.*)?        u:object_r:splash2_file:s0
+/version(/.*)?        u:object_r:version_file:s0

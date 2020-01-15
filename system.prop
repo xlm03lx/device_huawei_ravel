@@ -31,7 +31,7 @@ video.accelerate.hw=1
 ro.cp_system_other_odex=0
 
 # Security Patches
-ro.build.version.security_patch_sys=2019-12-05
+ro.build.version.security_patch_sys=2019-05-05
 
 # Fingerprint Gestures
 sys.fpnav.enabled=1

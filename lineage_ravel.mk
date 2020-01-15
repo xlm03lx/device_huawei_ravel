@@ -28,13 +28,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Inherit from ravel device
 $(call inherit-product, device/huawei/ravel/device.mk)
 
-$(call inherit-product-if-exists, vendor/huawei/ravel/ravel-vendor.mk)
+$(call inherit-product-if-exists, vendor/huawei/kirin970-common/kirin970-common-vendor.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ravel
 PRODUCT_NAME := lineage_ravel
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := ravel
+PRODUCT_MODEL := Honor Note 10
 PRODUCT_MANUFACTURER := Huawei
 
 PRODUCT_GMS_CLIENTID_BASE := android-huawei

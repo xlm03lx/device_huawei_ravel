@@ -1,0 +1,9 @@
+How to apply patches
+
+cd WORKING_DIR
+sh device/huawei/ravel/patches/apply-patches.sh
+sh device/huawei/ravel/patches/remove-patches.sh
+
+aosp-10.0
+sh device/huawei/ravel/patches/rever_blu.sh
+

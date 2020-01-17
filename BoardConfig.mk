@@ -87,10 +87,13 @@ PRODUCT_VENDOR_MOVE_ENABLED := true
 TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 
 # Recovery
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/recovery.fstab
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.kirin970
+
+# Release tools
+TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 
 # Ril
-ENABLE_VENDOR_RIL_SERVICE := true
+#ENABLE_VENDOR_RIL_SERVICE := true
 
 # Root
 BOARD_ROOT_EXTRA_FOLDERS := \

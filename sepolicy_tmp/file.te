@@ -2,5 +2,3 @@ type cust_file, file_type;
 type hw_odm_file, file_type;
 type modem_log_file, file_type;
 type sec_storage_file, file_type;
-type splash2_file, file_type;
-type version_file, file_type;

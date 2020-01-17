@@ -166,6 +166,24 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# Properties
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.build.version.all_codenames=$(PLATFORM_VERSION_ALL_CODENAMES) \
+    ro.build.version.codename=$(PLATFORM_VERSION_CODENAME) \
+    ro.build.version.huawei=8.0.0 \
+    ro.build.version.huawei1=8.1.0 \
+    ro.build.version.release=$(PLATFORM_VERSION) \
+    ro.build.version.sdk=$(PLATFORM_SDK_VERSION) \
+    ro.cust.cdrom=/dev/null
+
+# Recovery
+PRODUCT_PACKAGES += \
+    resize2fs_static
+
+# Release tools
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/releasetools/releasetools.kirin970.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/releasetools.kirin970.sh
+
 # Radio
 PRODUCT_PACKAGES += \
     qti-telephony-common
